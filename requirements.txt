@@ -1,0 +1,10 @@
+Flask
+python-dotenv
+streamlit
+requests
+Flask-Cors
+gunicorn
+groq
+langchain
+langchain-groq
+langchain-core
