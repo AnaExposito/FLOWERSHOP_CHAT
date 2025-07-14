@@ -4,3 +4,4 @@ __pycache__/
 venv/
 .flaskenv
 *.sqlite3
+.env
