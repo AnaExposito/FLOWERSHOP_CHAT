@@ -3,11 +3,11 @@ Chatbot de Flores - Asistente Virtual para Consultas Personalizadas
 
 ![Logo de Flowershop](https://floreak.es/wp-content/uploads/2024/01/Captura-de-pantalla-2024-01-02-182423-e1707068790441.png "Logo de la Floristería")
 
-Este proyecto es un chatbot inteligente especializado en flores, desarrollado con Python, Streamlit para la interfaz de usuario, Docker para la contenerización, y PostgreSQL gestionado mediante pgAdmin. Está desplegado en Render para un acceso en línea eficiente y escalable.
+
+Este proyecto es un chatbot inteligente para responder preguntas sobre tipos de flores, cuidados, riego, ubicación, entre otros. Está especializado en flores, desarrollado con Python, Streamlit para la interfaz de usuario, Docker para la contenerización, y PostgreSQL gestionado mediante pgAdmin. Está desplegado en Render para un acceso en línea eficiente y escalable.
 
 Características:
 
-Chatbot inteligente para responder preguntas sobre tipos de flores, cuidados, riego, ubicación, entre otros.
 Interfaz web amigable creada con Streamlit.
 Base de datos PostgreSQL para almacenar información sobre flores y registros de usuarios 
 Docker para contenerización y despliegue fácil.
