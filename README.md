@@ -1,9 +1,12 @@
 Chatbot de Flores - Asistente Virtual para Consultas Personalizadas
 
 
-Este proyecto es un chatbot inteligente especializado en flores y jardinería, desarrollado con Python, Streamlit para la interfaz de usuario, Docker para la contenerización, y PostgreSQL gestionado mediante pgAdmin. Está desplegado en Render para un acceso en línea eficiente y escalable.
+![Logo de Flowershop](https://floreak.es/wp-content/uploads/2024/01/Captura-de-pantalla-2024-01-02-182423-e1707068790441.png "Logo de la Floristería")
 
-Características
+Este proyecto es un chatbot inteligente especializado en flores, desarrollado con Python, Streamlit para la interfaz de usuario, Docker para la contenerización, y PostgreSQL gestionado mediante pgAdmin. Está desplegado en Render para un acceso en línea eficiente y escalable.
+
+Características:
+
 Chatbot inteligente para responder preguntas sobre tipos de flores, cuidados, riego, ubicación, entre otros.
 Interfaz web amigable creada con Streamlit.
 Base de datos PostgreSQL para almacenar información sobre flores y registros de usuarios 
@@ -12,10 +15,10 @@ pgAdmin para administración y monitoreo de la base de datos.
 Despliegue en Render, listo para producción.
 
 Tecnologías Usadas
-Python 3.10+
+Python 
 Streamlit
 PostgreSQL
-pgAdmin 4
+pgAdmin 
 Docker 
 Render.com 
 
@@ -58,32 +61,16 @@ http://localhost:8501
 Accede a pgAdmin en:
 http://localhost:5050
 
-Base de Datos
-El archivo init.sql contiene el esquema base para la tabla de flores, con campos como:
-
-sql
-Copiar
-Editar
-CREATE TABLE flores (
-    id SERIAL PRIMARY KEY,
-    nombre TEXT,
-    cuidados TEXT,
-    ubicacion TEXT,
-    riego TEXT
-);
-
-
 Despliegue en Render
 Render se utiliza para desplegar tanto la app de Streamlit como la base de datos (en modo gestionado o externo).
 
 Subir el proyecto a GitHub.
-
 Conectar el repo a Render.
-
 Configurar los servicios (web y base de datos) desde el dashboard.
 
-Próximas Mejoras
-Integración con GPT u otro modelo de lenguaje.
+
+
+Próximas Mejoras:
 
 Soporte para imágenes de flores.
 
@@ -91,8 +78,14 @@ Autenticación de usuarios.
 
 Registro de historial de conversaciones.
 
+
+
+
 Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar el bot o agregar nuevas funciones, crea un fork, haz tus cambios y envía un pull request.
+
+
+
 
 Contacto
 ¿Dudas o sugerencias?
