@@ -45,5 +45,6 @@ if prompt := st.chat_input("Escribe tu pregunta aquí..."):
 
 
     st.session_state.messages.append({"role": "bot", "content": bot_response})
-    st.experimental_rerun()
+    with st.chat_message("bot"):
+        st.markdown(bot_response)
 
