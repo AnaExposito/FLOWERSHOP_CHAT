@@ -16,7 +16,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
     st.session_state.messages.append({"role": "bot", "content": "Bienvenid@ al mundo de las flores! Soy tu experta floral. ¿Qué te gustaría explorar hoy?"})
-
+    st.experimental_rerun()
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
@@ -45,6 +45,5 @@ if prompt := st.chat_input("Escribe tu pregunta aquí..."):
 
 
     st.session_state.messages.append({"role": "bot", "content": bot_response})
-    with st.chat_message("bot"):
-        st.markdown(bot_response)
+    st.experimental_rerun()
 
